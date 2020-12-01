@@ -1,0 +1,35 @@
+.section-3{
+    background:url(https://res.cloudinary.com/ddunuksxx/image/upload/v1606182068/17_1_wxb6nh.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-bdy{
+    float: left;
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-bottom: 500px;
+}
+
+
+h5{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+margin-top: auto;
+position: relative;
+}
+
+
+h4{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 120px;
+}

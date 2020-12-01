@@ -1,0 +1,13 @@
+/* Global */
+ @import "./Styles/global/Header.css"; 
+
+/* MAIN */
+ @import "./Styles/main/Section1.css"; 
+
+/* MAIN*/
+@import "./Styles/main/Section2.css"; 
+
+/* MAIN */
+ @import "./Styles/main/Section3.css";
+
+@import "./Styles/main/Footer.css";

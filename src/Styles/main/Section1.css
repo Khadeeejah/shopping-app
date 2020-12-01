@@ -1,0 +1,58 @@
+.section-1{
+    background:url(https://res.cloudinary.com/ddunuksxx/image/upload/v1606067095/1_1_1_cruvgu.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-body{
+    float: right;
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-bottom: 500px;
+
+    }
+
+    
+
+h1{
+font-weight: 50px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+margin-left: 50px;
+
+    
+}
+
+
+h2{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+
+}
+
+
+button{
+    background-color:black;
+  border: none;
+  color:white;
+  text-align: center;
+  padding: 10px 24px;
+  margin: 4px 4px;
+}
+
+
+p{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+}

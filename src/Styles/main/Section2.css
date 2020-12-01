@@ -1,0 +1,311 @@
+
+
+.grid-parent {
+    display: grid;
+    padding: 50px 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 220px);
+    grid-gap: 20px;
+    
+  }
+
+  .grid-parent .box {
+    background: #eee;
+  }
+  
+  .grid-parent .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  
+  .grid-parent .box-1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  
+  .grid-parent .box-2 {
+    grid-column: 3/5;
+    grid-row: 1/3;
+  }
+  
+  .grid-parent .box-3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  
+  .grid-parent .box-4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  
+
+
+
+
+
+.women-category {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.h1{
+
+    line-height: 5rem;
+    margin-top: 100px;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+    }
+
+
+
+.p-1{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 100px;
+/* identical to box height */
+
+text-align: center;
+
+}
+
+.women-a{
+    margin: 5px;
+    border: 1px ;
+    float: left;
+
+
+}
+
+
+.women-b{
+    margin: 5px;
+    border: 1px ;
+    float: left;
+
+}
+
+.women-c{
+    margin: 5px;
+    border: 1px ;
+    float: left;
+
+}
+
+.women-d{
+    margin: 5px;
+    border: 1px ;
+    float: left;
+
+}
+
+
+
+
+
+
+
+
+
+.men-category>h3{
+    line-height: 5rem;
+    margin-top: 100px;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+    }
+    
+    .p-2{
+        font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 100px;
+/* identical to box height */
+
+text-align: center;
+
+    }
+    
+    .container-men {
+        display: flex;
+        justify-content: center;
+        }
+
+
+    .men-category {
+        display: flex;
+        justify-content: center;
+    
+    
+    }
+
+
+    .men-a{
+        margin: 5px;
+        border: 1px ;
+        float: left;
+    
+    
+    }
+
+    .men-b{
+        margin: 5px;
+        border: 1px ;
+        float: left;
+    
+    
+    }
+
+    .men-c{
+        margin: 5px;
+        border: 1px ;
+        float: left;
+    
+    
+    }
+    .men-d{
+        margin: 5px;
+        border: 1px ;
+        float: left;
+    
+    
+    }
+
+    .desc{
+        padding: 15px;
+  text-align: center
+    }
+
+    .price{
+        font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+
+    }
+    
+    .discount{
+        justify-content: space-between;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+    }
+
+
+    .avone>h4{
+        
+        line-height: 5rem;
+        margin-top: 100px;
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+
+    }
+
+    .avone{
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+
+    }
+
+
+    .p-3{
+        font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 100px;
+/* identical to box height */
+
+text-align: center;
+margin-bottom: 250px;
+
+    }
+
+    
+    
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+        margin: 200px;
+        padding-bottom: 1px;
+    
+        
+    }
+
+    .grid-parent-1 {
+        display: grid;
+        padding: 50px 20px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 220px);
+        grid-gap: 20px;
+      }
+      
+      .grid-parent .box {
+        background: #eee;
+      }
+      
+      .grid-parent-1 .box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+      
+      .grid-parent-1 .avi-1 {
+        grid-column: 3/5;
+        grid-row: 1/3;
+      }
+      
+      .grid-parent-1 .avi-2 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    
+      }
+      
+      .grid-parent-1 .avi-3 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+
+}
+
+
+
+
